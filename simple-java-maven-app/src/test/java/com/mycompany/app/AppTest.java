@@ -23,6 +23,7 @@ public class AppTest
     @Test
     public void testAppConstructor() {
         try {
+            System.out.println("Testing Jenkins - 1");
             new App();
         } catch (Exception e) {
             fail("Construction failed.");
