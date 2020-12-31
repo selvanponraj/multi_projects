@@ -17,6 +17,9 @@ def divide(a, b):
     checkInputs(a, b)
     return a / b
 
+def add2(a, b):
+    checkInputs(a, b)
+    return a + b
 
 def checkInputs(a, b):
     if not isinstance(a, (int, float)) or not isinstance(b, (int, float)):
